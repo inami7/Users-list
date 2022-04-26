@@ -1,3 +1,6 @@
+//グローバルなstate管理
+// <UserProvider></UserProvider>で囲った配下でvalueの値が参照できる
+//呼び出しはuseContext
 import { createContext, useState } from "react";
 
 export const UserContext = createContext({});
